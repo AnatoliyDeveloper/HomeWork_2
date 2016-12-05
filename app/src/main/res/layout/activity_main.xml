@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0000"
+    android:padding="20dp"
+    android:id="@+id/mainFrame">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#689a00"
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:id="@+id/line1">
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mipmap1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some text"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18dp"
+                android:id="@+id/text1"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mipmap2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some text"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18dp"
+                android:id="@+id/text2"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mipmap3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some text"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18dp"
+                android:id="@+id/text3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#689a00"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:id="@+id/line2">
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mipmap4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some text"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18dp"
+                android:id="@+id/text4"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mipmap5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some text"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18dp"
+                android:id="@+id/text5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mipmap6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some text"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18dp"
+                android:id="@+id/text6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
